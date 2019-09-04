@@ -1,0 +1,12 @@
+├───project
+├───static
+│	├───a_lorem
+│	│	└───ipsum
+│	├───css
+│	├───html
+│	├───js
+│	└───z_lorem
+│		└───ipsum
+└───zline
+	└───lorem
+		└───ipsum
