@@ -27,6 +27,8 @@ func FastSearch(out io.Writer) {
 		panic(err)
 	}
 
+	defer file.Close()
+
 	sc := bufio.NewScanner(file)
 	if err != nil {
 		panic(err)
@@ -34,7 +36,6 @@ func FastSearch(out io.Writer) {
 
 	seenBrowsers := make(map[string]bool, 150)
 	foundUsers := new(bytes.Buffer)
-
 	users := make([]User, 0)
 
 	for sc.Scan() {
