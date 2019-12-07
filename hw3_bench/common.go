@@ -13,6 +13,7 @@ import (
 
 const filePath string = "./data/users.txt"
 
+// default
 func SlowSearch(out io.Writer) {
 	file, err := os.Open(filePath)
 	if err != nil {

@@ -20,6 +20,7 @@ type User struct {
 	Name     string
 }
 
+// solution
 func FastSearch(out io.Writer) {
 	file, err := os.Open(filePath)
 	if err != nil {
