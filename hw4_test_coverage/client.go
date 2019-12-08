@@ -1,3 +1,4 @@
+// this file must not be modified
 package main
 
 import (
